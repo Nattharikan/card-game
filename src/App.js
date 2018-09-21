@@ -3,14 +3,14 @@ import logo from './logo.svg';
 import './App.css';
 import WordCard from './WordCard';
 import NewGames from './NewGames';
- const word = "Hello";
- const Noona = "PSU";
+ const word = "HELLO";
+ const word1 = "CHOCOLATEY";
 class App extends Component {
   render() {
     return (
     <div className="activecard">
     <WordCard value={word}/>
-    <NewGames value={Noona}/>
+    <NewGames value={word1}/>
     </div>
     );
    }
